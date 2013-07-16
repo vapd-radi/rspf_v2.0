@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgText
+END
+KerningType
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgText/KerningType
+END
+TextBase
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgText/TextBase
+END
+Export
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgText/Export
+END
+FadeText
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgText/FadeText
+END
+Text
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgText/Text
+END
+Version
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgText/Version
+END
+Font
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgText/Font
+END
+String
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgText/String
+END
+Text3D
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgText/Text3D
+END
+Font3D
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgText/Font3D
+END

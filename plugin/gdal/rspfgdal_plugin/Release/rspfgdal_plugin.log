@@ -1,0 +1,39 @@
+﻿Build started 2013-1-7 13:22:54.
+     1>Project "D:\opensource\rspf\2.0\plugin\gdal\rspfgdal_plugin\rspfgdal_plugin.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\gdal /I..\..\..\include /Zi /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D RSPFUSINGDLL /D GDAL_EXPORTS /D HAVE_CONFIG_H /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\rspfGdalTileSource.cpp
+         rspfGdalTileSource.cpp
+     1>d:\opensource\rspf\2.0\3rdparty\include\alglib\linalg.h(2090): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>d:\opensource\rspf\2.0\3rdparty\include\alglib\linalg.h(2742): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\opensource\rspf\2.0\project\Release\rspfgdal_plugin.dll" /INCREMENTAL:NO /NOLOGO rspf20.lib gdal_i.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\opensource\rspf\2.0\project\Release\rspfgdal_plugin.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\opensource\rspf\2.0\project\Release\rspfgdal_plugin.lib" /MACHINE:X86 /SAFESEH /DLL Release\rspfEsriShapeFileFilter.obj
+         Release\rspfGdalDataset.obj
+         Release\rspfGdalFactory.obj
+         Release\rspfGdalImageWriterFactory.obj
+         Release\rspfGdalInfoFactory.obj
+         Release\rspfGdalObjectFactory.obj
+         Release\rspfGdalOgrVectorAnnotation.obj
+         Release\rspfGdalOverviewBuilder.obj
+         Release\rspfGdalOverviewBuilderFactory.obj
+         Release\rspfGdalPluginInit.obj
+         Release\rspfGdalProjectionFactory.obj
+         Release\rspfGdalTiledDataset.obj
+         Release\rspfGdalTileSource.obj
+         Release\rspfGdalType.obj
+         Release\rspfGdalWriter.obj
+         Release\rspfHdfInfo.obj
+         Release\rspfHdfReader.obj
+         Release\rspfOgcWktTranslator.obj
+         Release\rspfOgrGdalTileSource.obj
+         Release\rspfOgrInfo.obj
+         Release\rspfOgrVectorTileSource.obj
+         Release\rspfShapeDatabase.obj
+         Release\rspfShapeFile.obj
+            Creating library D:\opensource\rspf\2.0\project\Release\rspfgdal_plugin.lib and object D:\opensource\rspf\2.0\project\Release\rspfgdal_plugin.exp
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         rspfgdal_plugin.vcxproj -> D:\opensource\rspf\2.0\project\Release\rspfgdal_plugin.dll
+     1>Done Building Project "D:\opensource\rspf\2.0\plugin\gdal\rspfgdal_plugin\rspfgdal_plugin.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.90

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgViewer/api/Win32
+END
+GraphicsWindowWin32
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgViewer/api/Win32/GraphicsWindowWin32
+END
+PixelBufferWin32
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgViewer/api/Win32/PixelBufferWin32
+END

@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle
+END
+PointPlacer
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/PointPlacer
+END
+Interpolator
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/Interpolator
+END
+Version
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/Version
+END
+ExplosionDebrisEffect
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/ExplosionDebrisEffect
+END
+SmokeTrailEffect
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/SmokeTrailEffect
+END
+Operator
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/Operator
+END
+ModularProgram
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/ModularProgram
+END
+SmokeEffect
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/SmokeEffect
+END
+RandomRateCounter
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/RandomRateCounter
+END
+range
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/range
+END
+ModularEmitter
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/ModularEmitter
+END
+ExplosionEffect
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/ExplosionEffect
+END
+FireEffect
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/FireEffect
+END
+Particle
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/Particle
+END
+ConstantRateCounter
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/ConstantRateCounter
+END
+Placer
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/Placer
+END
+Program
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/Program
+END
+Emitter
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/Emitter
+END
+FluidFrictionOperator
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/FluidFrictionOperator
+END
+BoxPlacer
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/BoxPlacer
+END
+Counter
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/Counter
+END
+ParticleEffect
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/ParticleEffect
+END
+CenteredPlacer
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/CenteredPlacer
+END
+Export
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/Export
+END
+AccelOperator
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/AccelOperator
+END
+Shooter
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/Shooter
+END
+SectorPlacer
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/SectorPlacer
+END
+PrecipitationEffect
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/PrecipitationEffect
+END
+SegmentPlacer
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/SegmentPlacer
+END
+ConnectedParticleSystem
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/ConnectedParticleSystem
+END
+FluidProgram
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/FluidProgram
+END
+ParticleSystemUpdater
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/ParticleSystemUpdater
+END
+AngularAccelOperator
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/AngularAccelOperator
+END
+RadialShooter
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/RadialShooter
+END
+VariableRateCounter
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/VariableRateCounter
+END
+ParticleProcessor
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/ParticleProcessor
+END
+MultiSegmentPlacer
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/MultiSegmentPlacer
+END
+ParticleSystem
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/ParticleSystem
+END
+ForceOperator
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/ForceOperator
+END
+LinearInterpolator
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgParticle/LinearInterpolator
+END

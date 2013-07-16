@@ -1,0 +1,98 @@
+//----------------------------------------------------------------------------
+//
+// License:  See top level LICENSE.txt file.
+//
+// Author:  Garrett Potts
+//
+// Description: CSCCGA tag class definition
+//
+//----------------------------------------------------------------------------
+// $Id$
+#include <ossim/support_data/ossimNitfRegisteredTag.h>
+
+class OSSIM_DLL ossimNitfCsccgaTag : public ossimNitfRegisteredTag
+{
+public:
+	enum{
+		CCG_SOURCE_SIZE    = 18,
+		REG_SENSOR_SIZE    = 6,
+		ORIGIN_LINE_SIZE   = 7,
+		ORIGIN_SAMPLE_SIZE = 5,
+		AS_CELL_SIZE_SIZE  = 7,
+		CS_CELL_SIZE_SIZE  = 5,
+		CCG_MAX_LINE_SIZE  = 7,
+		CCG_MAX_SAMPLE_SIZE= 5
+	};
+	ossimNitfCsccgaTag();
+	virtual std::string getRegisterTagName() const;
+	virtual void parseStream(std::istream& in);
+	virtual void writeStream(std::ostream& out);
+
+	virtual ossim_uint32 getSizeInBytes()const;
+	virtual std::ostream& print(std::ostream& out,
+										 const std::string& prefix=std::string()) const;
+	virtual void clearFields();
+
+protected:
+	/**
+	* Field: CCG_SOURCE
+	*
+	* Source of Grid Concatenation of all sensors used to create 
+	* cloud cover grid separated by commas
+	*/
+	char m_ccgSource[CCG_SOURCE_SIZE+1];
+	
+	/**
+	* Field: REG_SENSOR
+	*
+	* Image Segment Sensor to which Cloud Cover Grid is registered 
+	* (CCG is always registered to the synthetic array)
+	*/
+	char m_regSensor[REG_SENSOR_SIZE+1];
+
+	/**
+	* Field: ORIGIN_LINE
+	*
+	* Cloud Cover Grid Origin – Line 
+	* (Corresponding line in registered image segment)
+	*/
+	char m_originLine[ORIGIN_LINE_SIZE+1];
+
+	/**
+	* Field: ORIGIN_SAMPLE
+	*
+	* Cloud Cover Grid Origin – Sample 
+	* (Corresponding sample in registered image segment)
+	*/
+	char m_originSample[ORIGIN_SAMPLE_SIZE+1];
+
+	/**
+	* Field: AS_CELL_SIZE
+	*
+	* Along Scan Cell Size – Lines (Cloud Cover Grid spacing in 
+	* registered image segment lines)
+	*/
+	char m_asCellSize[AS_CELL_SIZE_SIZE+1];
+
+	/**
+	* Field: CS_CELL_SIZE
+	*
+	* Cross Scan Cell Size – Samples 
+	* (Cloud Cover Grid spacing in registered image segment samples)
+	*/
+	char m_csCellSize[CS_CELL_SIZE_SIZE+1];
+	
+	/**
+	* Field: CCG_MAX_LINE
+	*
+	* Number of Rows in CC Grid (Number of Cells in "lines" direction)
+	*/
+	char m_ccgMaxLine[CCG_MAX_LINE_SIZE+1];
+
+	/**
+	* Field: CCG_MAX_SAMPLE
+	*
+	* Number of Columns in CC Grid (Number of Cells in "sample" direction)
+	*/
+	char m_ccgMaxSample[CCG_MAX_SAMPLE_SIZE+1];
+};

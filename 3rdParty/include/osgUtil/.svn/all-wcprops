@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil
+END
+CullVisitor
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/CullVisitor
+END
+IntersectVisitor
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/IntersectVisitor
+END
+PlaneIntersector
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/PlaneIntersector
+END
+TangentSpaceGenerator
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/TangentSpaceGenerator
+END
+CubeMapGenerator
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/CubeMapGenerator
+END
+Version
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/Version
+END
+SceneGraphBuilder
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/SceneGraphBuilder
+END
+IntersectionVisitor
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/IntersectionVisitor
+END
+SmoothingVisitor
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/SmoothingVisitor
+END
+SceneView
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/SceneView
+END
+TransformCallback
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/TransformCallback
+END
+LineSegmentIntersector
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/LineSegmentIntersector
+END
+HalfWayMapGenerator
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/HalfWayMapGenerator
+END
+OperationArrayFunctor
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/OperationArrayFunctor
+END
+Tessellator
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/Tessellator
+END
+StateGraph
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/StateGraph
+END
+RenderStage
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/RenderStage
+END
+RenderLeaf
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/RenderLeaf
+END
+EdgeCollector
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/EdgeCollector
+END
+ConvertVec
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/ConvertVec
+END
+Export
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/Export
+END
+Optimizer
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/Optimizer
+END
+PositionalStateContainer
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/PositionalStateContainer
+END
+DisplayRequirementsVisitor
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/DisplayRequirementsVisitor
+END
+Statistics
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/Statistics
+END
+GLObjectsVisitor
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/GLObjectsVisitor
+END
+PolytopeIntersector
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/PolytopeIntersector
+END
+DrawElementTypeSimplifier
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/DrawElementTypeSimplifier
+END
+DelaunayTriangulator
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/DelaunayTriangulator
+END
+ReflectionMapGenerator
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/ReflectionMapGenerator
+END
+TransformAttributeFunctor
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/TransformAttributeFunctor
+END
+TriStripVisitor
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/TriStripVisitor
+END
+UpdateVisitor
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/UpdateVisitor
+END
+Simplifier
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/Simplifier
+END
+ReversePrimitiveFunctor
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/ReversePrimitiveFunctor
+END
+RenderBin
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/RenderBin
+END
+HighlightMapGenerator
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgUtil/HighlightMapGenerator
+END

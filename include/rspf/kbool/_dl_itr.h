@@ -1,0 +1,259 @@
+/*! \file kbool/include/kbool/_dl_itr.h
+    \author Probably Klaas Holwerda 
+    Copyright: 2001-2004 (C) Probably Klaas Holwerda
+    Licence: wxWidgets Licence
+    RCS-ID: $Id: _dl_itr.h 13215 2008-07-23 18:51:54Z dburken $
+*/
+/*
+ * Definitions of classes, for list implementation
+ * template list and iterator for any list node type
+*/
+#ifndef _DL_Iter_H
+#define _DL_Iter_H
+#if defined(__GNUG__) && !defined(NO_GCC_PRAGMA)
+#pragma interface
+#endif
+#include <stdlib.h>
+#include <rspf/kbool/bool_globals.h>
+#ifndef _STATUS_ENUM
+#define _STATUS_ENUM
+enum  Lerror  {
+   NO_MES,              /*!<No Message will be generated */
+   NO_LIST,             /*!<List is not attached to the iterator*/
+   NO_LIST_OTHER,       /*!<no attached list on other iter*/
+   AC_ITER_LIST_OTHER,  /*!<iter not allowed on other list  */
+   SAME_LIST,           /*!<same list not allowed*/
+   NOT_SAME_LIST,       /*!<must be same list*/
+   ITER_GT_1,           /*!<more then one iteriter at root*/
+   ITER_GT_0,           /*!<iter not allowed*/
+   ITER_HITROOT,        /*!<iter at root*/
+   NO_ITEM,             /*!<no item at current*/
+   NO_NEXT,             /*!<no next after current*/
+   NO_PREV,             /*!<no prev before current */
+   EMPTY,               /*!<list is empty*/
+   NOT_ALLOW,           /*!<not allowed*/
+   ITER_NEG             /*!<to much iters deleted*/
+};
+#endif
+#define SWAP(x,y,t)((t)=(x),(x)=(y),(y)=(t))
+#define RT _list->_root
+#define HD _list->_root->_next
+#define TL _list->_root->_prev
+#define NB _list->_nbitems
+template <class Dtype> class DL_List;
+template <class Dtype> class DL_Iter;
+template <class Dtype> class DL_SortIter;
+template <class Dtype>  class DL_Node
+{
+   friend class DL_List<Dtype>;
+   friend class DL_Iter<Dtype>;
+   friend class DL_SortIter<Dtype>;
+   
+public:
+   DL_Node();
+   
+   DL_Node( Dtype n );
+   
+   ~DL_Node();
+   
+public:
+   Dtype _item;
+   
+   DL_Node* _next;
+   
+   DL_Node* _prev;
+};
+template <class Dtype> class DL_List
+{
+   	friend class DL_Iter<Dtype>;
+   	friend class DL_SortIter<Dtype>;
+      public:
+		   //!Constructor
+			//!Construct a list object
+			//!!tcarg class | Dtype | list object
+         DL_List();
+		   //!destructor
+         ~DL_List();
+		   //!Report off List Errors
+   		void Error(const char* function,Lerror a_error);
+		   //!Number of items in the list
+         int  count();
+		   //!Empty List?
+         bool empty();
+		   //!insert the object given at the end of the list, after tail
+         DL_Node<Dtype>* insend( Dtype n );
+		   //!insert the object given at the begin of the list, before head
+         DL_Node<Dtype>* insbegin( Dtype n );
+		   //!remove the object at the begin of the list (head)
+         void removehead();
+		   //! remove the object at the end of the list (tail)
+         void removetail();
+		   //!remove all objects from the list
+         void remove_all( bool deleteObject = false );
+		   //!Get the item at the head of the list
+         Dtype headitem();
+		   //!Get the item at the tail of the list
+         Dtype tailitem();
+         void takeover(DL_List<Dtype>* otherlist);
+       public:
+		   //!the root node pointer of the list, the first and last node
+         DL_Node<Dtype>*  _root;
+		   //!the number of items in the list, if empty list it is 0
+         int _nbitems;
+         short int _iterlevel;
+};
+template <class Dtype>
+class DL_Iter
+{
+	public:
+	   //!Construct an iterator object for a given list of type Dtype
+		DL_Iter(DL_List<Dtype>* newlist);
+		//!Constructor of iterator for the same list as another iterator
+		DL_Iter(DL_Iter* otheriter);
+		//!Constructor without an attached list
+		DL_Iter();
+		//!destructor
+		~DL_Iter();
+	   //!Report off Iterator Errors
+		void 	  Error(const char* function,Lerror a_error);
+		void    Attach(DL_List<Dtype>* newlist);
+      void    Detach();
+		void 	  foreach_f(void (*fp) (Dtype n) );
+		//! list mutations
+	   //!insert after tail item
+		DL_Node<Dtype>*  insend(Dtype n);
+	   //!insert before head item
+		DL_Node<Dtype>* insbegin(Dtype n);
+	   //!insert before current iterator position
+        DL_Node<Dtype>* insbefore(Dtype n);
+	   //!insert after current iterator position
+		DL_Node<Dtype>* insafter(Dtype n);
+		void    takeover(DL_List<Dtype>* otherlist);
+		void    takeover(DL_Iter* otheriter);
+      void    takeover(DL_Iter* otheriter, int maxcount);
+		void    remove();
+	   //!Remove head item
+		void    removehead();
+	   //!Remove tail item
+		void    removetail();
+	   //!Remove all items
+		void    remove_all();
+		/*		void 	  foreach_mf(void (Dtype::*mfp)() ); //call Dtype::mfp for each item */
+	   //!is list empty (contains items or not)?
+		bool  empty();
+	   //!is iterator at root node (begin or end)?
+		bool  hitroot();
+	   //!is iterator at head/first node?
+		bool  athead();
+	   //!is iterator at tail/last node?
+		bool  attail();
+		bool  has(Dtype otheritem);
+	   //!Number of items in the list
+		int count();
+		/* cursor movements */
+		//!go to last item,  if list is empty goto hite
+      void 	totail();
+		//!go to first item, if list is empty goto hite
+      void 	tohead();
+		//!set the iterator position to the root (empty dummy) object in the list.
+		void 	toroot();
+		//! set the iterator position to next object in the list ( can be the root also).
+		void    operator++      (void);
+		void    operator++      (int);
+		//!set the iterator position to previous object in the list ( can be the root also)(postfix).
+		void    operator--      (void);
+		//!set the iterator position to previous object in the list ( can be the root also)(pre fix).
+		void    operator--      (int);
+		void    operator>>      (int);
+		void    operator<<      (int);
+      void next_wrap();
+		//!then set the iterator at the tail object
+      void prev_wrap();
+      void reset_tail();
+      void reset_head();
+		bool toitem(Dtype);
+		void toiter(DL_Iter* otheriter);
+		bool tonode(DL_Node<Dtype>*);
+		bool iterate(void);
+		//!To get the item at the current iterator position
+		Dtype item();
+        DL_Node<Dtype>* node();
+		//!sort list with mergesort
+		void mergesort(int (*fcmp) (Dtype, Dtype));
+		//!sort list with cocktailsort
+        /*! 
+                \return number of swaps done.
+          */
+		int cocktailsort(int (*)(Dtype,Dtype), bool (*)(Dtype,Dtype)=NULL);
+	protected:
+		//!sort list with mergesort
+		void mergesort_rec(int (*fcmp)(Dtype,Dtype), DL_Node<Dtype> *RT1,int n);
+		//!sort list with mergesort
+		void mergetwo(int (*fcmp)(Dtype,Dtype), DL_Node<Dtype> *RT1,DL_Node<Dtype> *RT2);
+		//!set the iterator position to next object in the list ( can be the root also).
+		void next();
+		//!set the iterator position to previous object in the list ( can be the root also).
+		void prev();
+		DL_List<Dtype> *_list;
+		DL_Node<Dtype> *_current;
+};
+template <class Dtype>
+class DL_StackIter :protected DL_Iter<Dtype>
+{
+	public:
+	   //!Constructor of stack iterator for given list
+		DL_StackIter(DL_List<Dtype> *);
+	   //!Constructor of stack iterator no list attached
+		DL_StackIter();
+	   //!Destructor of stack iterator
+		~DL_StackIter();
+	   //!Remove all items from the stack
+		void remove_all();
+	   //!push given item on the stack
+		void push(Dtype n);
+		Dtype pop();
+   	//!is stack empty?
+		bool empty();
+		int count();
+};
+template <class DType> class DL_SortIter :public DL_Iter<DType>
+{
+	public:
+	   //!Constructor of sort iterator for given list and sort function
+		DL_SortIter(DL_List<DType>* nw_list, int (*new_func)(DType ,DType ));
+	   //!Constructor of sort iterator with sort function and no list attached
+		DL_SortIter(int (*newfunc)(DType,DType));
+	   //!Destructor of sort iterator
+		~DL_SortIter();
+		void insert (DType new_item);
+      /*override following functions to give an error */
+	   //!Not allowed
+		void   insend (bool n){sortitererror();};
+	   //!Not allowed
+		void   insbegin (bool n){sortitererror();};
+	   //!Not allowed
+      void   insbefore (bool n){sortitererror();};
+	   //!Not allowed
+		void   insafter (bool n){sortitererror();};
+	   //!Not allowed
+		void   takeover (DL_List<DType>*){sortitererror();};
+	   //!Not allowed
+		void   takeover (DL_Iter<DType>*){sortitererror();};
+	   //!Not allowed
+		void   takeover (DL_Iter<DType>* otheriter, int maxcount){sortitererror();};
+	   //!Not allowed
+      void   next_wrap() {sortitererror();};
+	   //!Not allowed
+      void   prev_wrap() {sortitererror();};
+	   //!Not allowed
+      void   reset_tail() {sortitererror();};
+	   //!Not allowed
+      void   reset_head() {sortitererror();};
+	private:
+	   //!Report off Iterator Errors
+      void sortitererror();
+		//!comparefunction used to insert items in sorted order
+		int  (*comparef)(DType, DType);
+};
+#include <rspf/kbool/_dl_itr.inc>
+#endif

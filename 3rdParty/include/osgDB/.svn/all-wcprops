@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB
+END
+FieldReaderIterator
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/FieldReaderIterator
+END
+Export
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/Export
+END
+Archive
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/Archive
+END
+Field
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/Field
+END
+DatabasePager
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/DatabasePager
+END
+PluginQuery
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/PluginQuery
+END
+Version
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/Version
+END
+WriteFile
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/WriteFile
+END
+ImageOptions
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/ImageOptions
+END
+Input
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/Input
+END
+ConvertUTF
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/ConvertUTF
+END
+ReaderWriter
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/ReaderWriter
+END
+FileUtils
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/FileUtils
+END
+DotOsgWrapper
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/DotOsgWrapper
+END
+Output
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/Output
+END
+ImagePager
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/ImagePager
+END
+FileNameUtils
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/FileNameUtils
+END
+ParameterOutput
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/ParameterOutput
+END
+fstream
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/fstream
+END
+SharedStateManager
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/SharedStateManager
+END
+FileCache
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/FileCache
+END
+FieldReader
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/FieldReader
+END
+Registry
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/Registry
+END
+DynamicLibrary
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/DynamicLibrary
+END
+Serializer
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/Serializer
+END
+ReadFile
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/ReadFile
+END
+AuthenticationMap
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgDB/AuthenticationMap
+END

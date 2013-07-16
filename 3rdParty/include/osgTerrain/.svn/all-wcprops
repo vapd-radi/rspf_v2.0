@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgTerrain
+END
+Export
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgTerrain/Export
+END
+GeometryTechnique
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgTerrain/GeometryTechnique
+END
+TerrainTile
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgTerrain/TerrainTile
+END
+Locator
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgTerrain/Locator
+END
+Terrain
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgTerrain/Terrain
+END
+ValidDataOperator
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgTerrain/ValidDataOperator
+END
+Version
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgTerrain/Version
+END
+TerrainTechnique
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgTerrain/TerrainTechnique
+END
+Layer
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgTerrain/Layer
+END

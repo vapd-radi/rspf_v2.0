@@ -1,0 +1,19 @@
+﻿Build started 2013-1-7 13:22:54.
+     1>Project "D:\opensource\rspf\2.0\plugin\registration-surf\registration_surf.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D RSPFUSINGDLL /D HAVE_CONFIG_H /D ARMA_USE_LAPACK /D ARMA_USE_BLAS /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt rspfMatchImageSourceFactory.cpp rspfSurfMatch.cpp
+         rspfMatchImageSourceFactory.cpp
+         rspfSurfMatch.cpp
+     1>rspfSurfMatch.cpp(272): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\opensource\rspf\2.0\project\Release\rspfsurf_plugin.dll" /INCREMENTAL:NO /NOLOGO rspf20.lib fftw3.lib lapack.lib blas.lib libf2c.lib opencv_calib3d242.lib opencv_contrib242.lib opencv_core242.lib opencv_features2d242.lib opencv_flann242.lib opencv_gpu242.lib opencv_haartraining_engine.lib opencv_highgui242.lib opencv_imgproc242.lib opencv_legacy242.lib opencv_ml242.lib opencv_nonfree242.lib opencv_objdetect242.lib opencv_photo242.lib opencv_stitching242.lib opencv_ts242.lib opencv_video242.lib opencv_videostab242.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\opensource\rspf\2.0\project\Release\rspfsurf_plugin.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\opensource\rspf\2.0\project\Release\rspfsurf_plugin.lib" /MACHINE:X86 /SAFESEH /DLL Release\rspfMatchImageSourceFactory.obj
+         Release\rspfMatchPluginInit.obj
+         Release\rspfSurfMatch.obj
+     1>LINK : fatal error LNK1181: cannot open input file 'opencv_calib3d242.lib'
+     1>Done Building Project "D:\opensource\rspf\2.0\plugin\registration-surf\registration_surf.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.48

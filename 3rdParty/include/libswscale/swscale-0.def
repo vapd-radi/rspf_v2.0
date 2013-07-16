@@ -1,0 +1,83 @@
+EXPORTS
+    bgr8torgb8 @1
+    dither_8x8_220 @2 DATA
+    dither_8x8_32 @3 DATA
+    dither_8x8_73 @4 DATA
+    ff_yuv2rgb_c_init_tables @5
+    ff_yuv2rgb_coeffs @6 DATA
+    ff_yuv2rgb_get_func_ptr @7
+    interleaveBytes @8 DATA
+    palette8tobgr15 @9
+    palette8tobgr16 @10
+    palette8topacked24 @11
+    palette8topacked32 @12
+    palette8torgb15 @13
+    palette8torgb16 @14
+    planar2x @15 DATA
+    rgb15to16 @16 DATA
+    rgb15to24 @17
+    rgb15to32 @18 DATA
+    rgb15tobgr15 @19
+    rgb15tobgr16 @20
+    rgb15tobgr24 @21 DATA
+    rgb15tobgr32 @22
+    rgb16to15 @23 DATA
+    rgb16to24 @24
+    rgb16to32 @25 DATA
+    rgb16tobgr15 @26
+    rgb16tobgr16 @27
+    rgb16tobgr24 @28 DATA
+    rgb16tobgr32 @29
+    rgb24to15 @30 DATA
+    rgb24to16 @31 DATA
+    rgb24to32 @32
+    rgb24tobgr15 @33 DATA
+    rgb24tobgr16 @34 DATA
+    rgb24tobgr24 @35 DATA
+    rgb24tobgr32 @36 DATA
+    rgb24toyv12 @37 DATA
+    rgb32to15 @38 DATA
+    rgb32to16 @39 DATA
+    rgb32to24 @40
+    rgb32tobgr15 @41 DATA
+    rgb32tobgr16 @42 DATA
+    rgb32tobgr24 @43 DATA
+    rgb32tobgr32 @44 DATA
+    sws_addVec @45
+    sws_cloneVec @46
+    sws_context_class @47 DATA
+    sws_convVec @48
+    sws_dcVec @49
+    sws_format_name @50
+    sws_freeContext @51
+    sws_freeFilter @52
+    sws_freeVec @53
+    sws_getCachedContext @54
+    sws_getColorspaceDetails @55
+    sws_getConstVec @56
+    sws_getContext @57
+    sws_getDefaultFilter @58
+    sws_getGaussianVec @59
+    sws_getIdentityVec @60
+    sws_normalizeVec @61
+    sws_printVec @62
+    sws_printVec2 @63
+    sws_rgb2rgb_init @64
+    sws_scale @65
+    sws_scaleVec @66
+    sws_scale_ordered @67
+    sws_setColorspaceDetails @68
+    sws_shiftVec @69
+    sws_subVec @70
+    swscale_version @71
+    uyvytoyuv420 @72 DATA
+    uyvytoyuv422 @73 DATA
+    vu9_to_vu12 @74 DATA
+    yuv422ptouyvy @75 DATA
+    yuv422ptoyuy2 @76 DATA
+    yuy2toyv12 @77 DATA
+    yuyvtoyuv420 @78 DATA
+    yuyvtoyuv422 @79 DATA
+    yv12touyvy @80 DATA
+    yv12toyuy2 @81 DATA
+    yvu9_to_yuy2 @82 DATA

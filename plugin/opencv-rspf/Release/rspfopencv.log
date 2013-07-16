@@ -1,0 +1,26 @@
+﻿Build started 2013-1-7 13:22:59.
+     1>Project "D:\opensource\rspf\2.0\plugin\opencv-rspf\rspfopencv.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\opensource\rspf\2.0\project\Release\rspfopencv_plugin.dll" /INCREMENTAL:NO /NOLOGO rspf20.lib opencv_calib3d242.lib opencv_contrib242.lib opencv_core242.lib opencv_features2d242.lib opencv_flann242.lib opencv_gpu242.lib opencv_haartraining_engine.lib opencv_highgui242.lib opencv_imgproc242.lib opencv_legacy242.lib opencv_ml242.lib opencv_nonfree242.lib opencv_objdetect242.lib opencv_photo242.lib opencv_stitching242.lib opencv_ts242.lib opencv_video242.lib opencv_videostab242.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\opensource\rspf\2.0\project\Release\rspfopencv_plugin.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\opensource\rspf\2.0\project\Release\rspfopencv_plugin.lib" /MACHINE:X86 /SAFESEH /DLL Release\lsd.obj
+         Release\rspfOpenCVCannyFilter.obj
+         Release\rspfOpenCVDilateFilter.obj
+         Release\rspfOpenCVErodeFilter.obj
+         Release\rspfOpenCVGoodFeaturesToTrack.obj
+         Release\rspfOpenCVLaplaceFilter.obj
+         Release\rspfOpenCVLogPolarFilter.obj
+         Release\rspfOpenCVLsdFilter.obj
+         Release\rspfOpenCVPluginFactory.obj
+         Release\rspfOpenCVPluginInit.obj
+         Release\rspfOpenCVPyrSegmentation.obj
+         Release\rspfOpenCVSmoothFilter.obj
+         Release\rspfOpenCVSobelFilter.obj
+         Release\rspfOpenCVSquaresFilter.obj
+         Release\rspfOpenCVStarFeatures.obj
+         Release\rspfOpenCVSURFFeatures.obj
+         Release\rspfOpenCVThresholdFilter.obj
+     1>LINK : fatal error LNK1181: cannot open input file 'opencv_calib3d242.lib'
+     1>Done Building Project "D:\opensource\rspf\2.0\plugin\opencv-rspf\rspfopencv.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.24

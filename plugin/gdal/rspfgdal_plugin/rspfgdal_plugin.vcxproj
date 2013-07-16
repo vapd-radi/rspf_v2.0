@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9C60EA95-B2EF-42B8-BB40-8845F32F4140}</ProjectGuid>
+    <RootNamespace>rspfgdal_plugin</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;RSPFGDAL_PLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..\..\gdal;..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_WINDOWS;_USRDLL;RSPFUSINGDLL;GDAL_EXPORTS;HAVE_CONFIG_H;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>rspf20.lib;gdal_i.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\rspfEsriShapeFileFilter.cpp" />
+    <ClCompile Include="..\rspfGdalDataset.cpp" />
+    <ClCompile Include="..\rspfGdalFactory.cpp" />
+    <ClCompile Include="..\rspfGdalImageWriterFactory.cpp" />
+    <ClCompile Include="..\rspfGdalInfoFactory.cpp" />
+    <ClCompile Include="..\rspfGdalObjectFactory.cpp" />
+    <ClCompile Include="..\rspfGdalOgrVectorAnnotation.cpp" />
+    <ClCompile Include="..\rspfGdalOverviewBuilder.cpp" />
+    <ClCompile Include="..\rspfGdalOverviewBuilderFactory.cpp" />
+    <ClCompile Include="..\rspfGdalPluginInit.cpp" />
+    <ClCompile Include="..\rspfGdalProjectionFactory.cpp" />
+    <ClCompile Include="..\rspfGdalTiledDataset.cpp" />
+    <ClCompile Include="..\rspfGdalTileSource.cpp" />
+    <ClCompile Include="..\rspfGdalType.cpp" />
+    <ClCompile Include="..\rspfGdalWriter.cpp" />
+    <ClCompile Include="..\rspfHdfInfo.cpp" />
+    <ClCompile Include="..\rspfHdfReader.cpp" />
+    <ClCompile Include="..\rspfOgcWktTranslator.cpp" />
+    <ClCompile Include="..\rspfOgrGdalTileSource.cpp" />
+    <ClCompile Include="..\rspfOgrInfo.cpp" />
+    <ClCompile Include="..\rspfOgrVectorTileSource.cpp" />
+    <ClCompile Include="..\rspfShapeDatabase.cpp" />
+    <ClCompile Include="..\rspfShapeFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\rspfEsriShapeFileFilter.h" />
+    <ClInclude Include="..\rspfGdalDataset.h" />
+    <ClInclude Include="..\rspfGdalFactory.h" />
+    <ClInclude Include="..\rspfGdalImageWriterFactory.h" />
+    <ClInclude Include="..\rspfGdalInfoFactory.h" />
+    <ClInclude Include="..\rspfGdalObjectFactory.h" />
+    <ClInclude Include="..\rspfGdalOgrVectorAnnotation.h" />
+    <ClInclude Include="..\rspfGdalOverviewBuilder.h" />
+    <ClInclude Include="..\rspfGdalOverviewBuilderFactory.h" />
+    <ClInclude Include="..\rspfGdalProjectionFactory.h" />
+    <ClInclude Include="..\rspfGdalTiledDataset.h" />
+    <ClInclude Include="..\rspfGdalTileSource.h" />
+    <ClInclude Include="..\rspfGdalType.h" />
+    <ClInclude Include="..\rspfGdalWriter.h" />
+    <ClInclude Include="..\rspfHdfInfo.h" />
+    <ClInclude Include="..\rspfHdfReader.h" />
+    <ClInclude Include="..\rspfOgcWktTranslator.h" />
+    <ClInclude Include="..\rspfOgrGdalTileSource.h" />
+    <ClInclude Include="..\rspfOgrInfo.h" />
+    <ClInclude Include="..\rspfOgrVectorTileSource.h" />
+    <ClInclude Include="..\rspfShapeDatabase.h" />
+    <ClInclude Include="..\rspfShapeFile.h" />
+    <ClInclude Include="..\shapefil.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

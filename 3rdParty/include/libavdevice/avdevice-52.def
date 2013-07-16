@@ -1,0 +1,4 @@
+EXPORTS
+    avdevice_register_all @1
+    avdevice_version @2
+    vfwcap_demuxer @3 DATA

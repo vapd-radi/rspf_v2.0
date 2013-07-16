@@ -1,0 +1,54 @@
+#ifndef rspfEquTokenDefines_HEADER
+#define rspfEquTokenDefines_HEADER
+
+#define RSPF_EQU_TOKEN_LEFT_PAREN  1
+#define RSPF_EQU_TOKEN_RIGHT_PAREN 2
+#define RSPF_EQU_TOKEN_LOG         3
+#define RSPF_EQU_TOKEN_MULT        4
+#define RSPF_EQU_TOKEN_DIV         5
+#define RSPF_EQU_TOKEN_MINUS             6
+#define RSPF_EQU_TOKEN_PLUS              7
+#define RSPF_EQU_TOKEN_IMAGE_VARIABLE    8
+#define RSPF_EQU_TOKEN_CONSTANT          9
+#define RSPF_EQU_TOKEN_EXP         10
+#define RSPF_EQU_TOKEN_LOG10       11
+#define RSPF_EQU_TOKEN_PI          12
+#define RSPF_EQU_TOKEN_POWER       13
+#define RSPF_EQU_TOKEN_SIN         14
+#define RSPF_EQU_TOKEN_SIND        15
+#define RSPF_EQU_TOKEN_COS         16
+#define RSPF_EQU_TOKEN_COSD        17
+#define RSPF_EQU_TOKEN_ABS         18
+#define RSPF_EQU_TOKEN_MIN         19
+#define RSPF_EQU_TOKEN_MAX         20
+#define RSPF_EQU_TOKEN_SQRT        21
+#define RSPF_EQU_TOKEN_COMMA       22
+#define RSPF_EQU_TOKEN_BLURR       23
+#define RSPF_EQU_TOKEN_SHIFT       24
+#define RSPF_EQU_TOKEN_CONV        25
+#define RSPF_EQU_TOKEN_BAND        26
+#define RSPF_EQU_TOKEN_ASSIGN_BAND 27
+#define RSPF_EQU_TOKEN_MOD         28
+#define RSPF_EQU_TOKEN_ASIN        29
+#define RSPF_EQU_TOKEN_ASIND       30
+#define RSPF_EQU_TOKEN_ACOS        31
+#define RSPF_EQU_TOKEN_ACOSD       32
+#define RSPF_EQU_TOKEN_TAN         33
+#define RSPF_EQU_TOKEN_TAND        34
+#define RSPF_EQU_TOKEN_ATAN        35
+#define RSPF_EQU_TOKEN_ATAND       36
+#define RSPF_EQU_TOKEN_LEFT_ARRAY_BRACKET 37
+#define RSPF_EQU_TOKEN_RIGHT_ARRAY_BRACKET 38
+#define RSPF_EQU_TOKEN_AMPERSAND 39
+#define RSPF_EQU_TOKEN_OR_BAR    40
+#define RSPF_EQU_TOKEN_TILDE     41
+#define RSPF_EQU_TOKEN_XOR       42
+#define RSPF_EQU_TOKEN_CLAMP     43
+#define RSPF_EQU_TOKEN_CLIP      44
+#define RSPF_EQU_TOKEN_BEQUAL 45
+#define RSPF_EQU_TOKEN_BGREATER 46
+#define RSPF_EQU_TOKEN_BGREATEROREQUAL 47
+#define RSPF_EQU_TOKEN_BLESS 48
+#define RSPF_EQU_TOKEN_BLESSOREQUAL 49
+#define RSPF_EQU_TOKEN_BDIFFERENT 50
+#endif

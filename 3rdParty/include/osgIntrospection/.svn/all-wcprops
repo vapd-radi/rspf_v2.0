@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection
+END
+Export
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/Export
+END
+Exceptions
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/Exceptions
+END
+Type
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/Type
+END
+InstanceCreator
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/InstanceCreator
+END
+Reflector
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/Reflector
+END
+Version
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/Version
+END
+Attributes
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/Attributes
+END
+PublicMemberAccessor
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/PublicMemberAccessor
+END
+Reflection
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/Reflection
+END
+ParameterInfo
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/ParameterInfo
+END
+MethodInfo
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/MethodInfo
+END
+CustomAttribute
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/CustomAttribute
+END
+TypeNameAliasProxy
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/TypeNameAliasProxy
+END
+ReaderWriter
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/ReaderWriter
+END
+ReflectionMacros
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/ReflectionMacros
+END
+PropertyInfo
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/PropertyInfo
+END
+ConstructorInfo
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/ConstructorInfo
+END
+TypedMethodInfo
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/TypedMethodInfo
+END
+Utility
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/Utility
+END
+StaticMethodInfo
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/StaticMethodInfo
+END
+Converter
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/Converter
+END
+Comparator
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/Comparator
+END
+TypedConstructorInfo
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/TypedConstructorInfo
+END
+type_traits
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/type_traits
+END
+CustomAttributeProvider
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/CustomAttributeProvider
+END
+ConverterProxy
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/ConverterProxy
+END
+Value
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/Value
+END
+ExtendedTypeInfo
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/ExtendedTypeInfo
+END
+variant_cast
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgIntrospection/variant_cast
+END

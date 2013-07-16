@@ -1,0 +1,53 @@
+8
+
+dir
+13070
+http://www.openscenegraph.org/svn/osg/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgViewer/api/Win32
+http://www.openscenegraph.org/svn/osg
+
+
+
+2008-11-14T17:03:59.476153Z
+9165
+robert
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+16af8721-9629-0410-8352-f15c8da7e697
+
+GraphicsWindowWin32
+file
+
+
+
+
+2012-04-20T02:02:15.140141Z
+f9c6f1dbed85f83e215e7edf838d184c
+2008-11-14T17:03:59.476153Z
+9165
+robert
+has-props
+
+PixelBufferWin32
+file
+
+
+
+
+2012-04-20T02:02:15.142141Z
+f3f484b42109b4285ca4dce264ba51da
+2008-03-04T16:39:44.513996Z
+7914
+robert
+

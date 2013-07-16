@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation
+END
+Animation
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/Animation
+END
+Skinning
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/Skinning
+END
+Export
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/Export
+END
+Interpolator
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/Interpolator
+END
+Bone
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/Bone
+END
+Skeleton
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/Skeleton
+END
+CubicBezier
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/CubicBezier
+END
+Target
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/Target
+END
+RigGeometry
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/RigGeometry
+END
+UpdateCallback
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/UpdateCallback
+END
+Assert
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/Assert
+END
+TimelineAnimationManager
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/TimelineAnimationManager
+END
+Sampler
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/Sampler
+END
+Keyframe
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/Keyframe
+END
+EaseMotion
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/EaseMotion
+END
+AnimationManagerBase
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/AnimationManagerBase
+END
+Timeline
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/Timeline
+END
+VertexInfluence
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/VertexInfluence
+END
+Channel
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/Channel
+END
+Vec3Packed
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/Vec3Packed
+END
+AnimationManager
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/AnimationManager
+END
+BasicAnimationManager
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/BasicAnimationManager
+END
+LinkVisitor
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/osg/!svn/ver/10253/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgAnimation/LinkVisitor
+END

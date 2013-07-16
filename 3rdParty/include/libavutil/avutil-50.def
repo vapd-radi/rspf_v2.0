@@ -1,0 +1,84 @@
+EXPORTS
+    _get_output_format @1
+    av_add_q @2
+    av_adler32_update @3
+    av_aes_crypt @4
+    av_aes_init @5
+    av_aes_size @6 DATA
+    av_base64_decode @7
+    av_base64_encode @8
+    av_crc @9
+    av_crc_get_table @10
+    av_crc_init @11
+    av_d2q @12
+    av_dbl2ext @13
+    av_dbl2int @14
+    av_des_crypt @15
+    av_des_init @16
+    av_div_q @17
+    av_evaluate_lls @18
+    av_ext2dbl @19
+    av_fifo_alloc @20
+    av_fifo_drain @21
+    av_fifo_free @22
+    av_fifo_generic_read @23
+    av_fifo_generic_write @24
+    av_fifo_realloc2 @25
+    av_fifo_reset @26
+    av_fifo_size @27
+    av_fifo_space @28
+    av_find_nearest_q_idx @29
+    av_flt2int @30
+    av_free @31
+    av_freep @32
+    av_gcd @33
+    av_init_lls @34
+    av_int2dbl @35
+    av_int2flt @36
+    av_lfg_init @37
+    av_log @38
+    av_log_default_callback @39
+    av_log_get_level @40
+    av_log_level @41 DATA
+    av_log_set_callback @42
+    av_log_set_level @43
+    av_lzo1x_decode @44
+    av_malloc @45
+    av_mallocz @46
+    av_md5_final @47
+    av_md5_init @48
+    av_md5_size @49 DATA
+    av_md5_sum @50
+    av_md5_update @51
+    av_memcpy_backptr @52
+    av_mul_q @53
+    av_nearer_q @54
+    av_rc4_crypt @55
+    av_rc4_init @56
+    av_realloc @57
+    av_reduce @58
+    av_rescale @59
+    av_rescale_q @60
+    av_rescale_rnd @61
+    av_sha1_final @62
+    av_sha1_init @63
+    av_sha1_size @64 DATA
+    av_sha1_update @65
+    av_solve_lls @66
+    av_strdup @67
+    av_stristart @68
+    av_strlcat @69
+    av_strlcatf @70
+    av_strlcpy @71
+    av_strstart @72
+    av_sub_q @73
+    av_tree_destroy @74
+    av_tree_find @75
+    av_tree_insert @76
+    av_tree_node_size @77 DATA
+    av_update_lls @78
+    av_vlog @79
+    avutil_version @80
+    ff_log2_tab @81 DATA
+    ff_random_get_seed @82
+    ff_sqrt_tab @83 DATA

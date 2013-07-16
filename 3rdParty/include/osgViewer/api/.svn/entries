@@ -1,0 +1,37 @@
+8
+
+dir
+13070
+http://www.openscenegraph.org/svn/osg/OpenSceneGraph/tags/OpenSceneGraph-2.8.1/include/osgViewer/api
+http://www.openscenegraph.org/svn/osg
+
+
+
+2008-11-14T17:03:59.476153Z
+9165
+robert
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+16af8721-9629-0410-8352-f15c8da7e697
+
+Win32
+dir
+
+Carbon
+dir
+
+X11
+dir
+

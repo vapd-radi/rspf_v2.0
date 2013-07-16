@@ -1,0 +1,60 @@
+RSPF_NULL_PIX_UINT8: 255
+
+elevation_source1.filename: D:\workspace\rspfdem\1_1.ras
+elevation_source1.type: srtm_cell
+
+elevation_source2.filename: D:\workspace\rspfdem\1_2.ras
+elevation_source2.type: srtm_cell
+
+elevation_source3.filename: D:\workspace\rspfdem\1_3.ras
+elevation_source3.type: srtm_cell
+
+elevation_source4.filename: D:\workspace\rspfdem\1_4.ras
+elevation_source4.type: srtm_cell
+
+elevation_source5.filename: D:\workspace\rspfdem\1_5.ras
+elevation_source5.type: srtm_cell
+
+elevation_source6.filename: D:\workspace\rspfdem\1_6.ras
+elevation_source6.type: srtm_cell
+
+elevation_source7.filename: D:\workspace\rspfdem\2_1.ras
+elevation_source7.type: srtm_cell
+
+elevation_source8.filename: D:\workspace\rspfdem\2_2.ras
+elevation_source8.type: srtm_cell
+
+elevation_source9.filename: D:\workspace\rspfdem\2_3.ras
+elevation_source9.type: srtm_cell
+
+elevation_source10.filename: D:\workspace\rspfdem\2_4.ras
+elevation_source10.type: srtm_cell
+
+elevation_source11.filename: D:\workspace\rspfdem\2_5.ras
+elevation_source11.type: srtm_cell
+
+elevation_source12.filename: D:\workspace\rspfdem\2_6.ras
+elevation_source12.type: srtm_cell
+
+elevation_source13.filename: D:\workspace\rspfdem\3_1.ras
+elevation_source13.type: srtm_cell
+
+elevation_source14.filename: D:\workspace\rspfdem\3_2.ras
+elevation_source14.type: srtm_cell
+
+elevation_source15.filename: D:\workspace\rspfdem\3_3.ras
+elevation_source15.type: srtm_cell
+
+elevation_source16.filename: D:\workspace\rspfdem\3_4.ras
+elevation_source16.type: srtm_cell
+
+elevation_source17.filename: D:\workspace\rspfdem\3_5.ras
+elevation_source17.type: srtm_cell
+
+elevation_source18.filename: D:\workspace\rspfdem\3_6.ras
+elevation_source18.type: srtm_cell
+
+plugin.file1: $(RSPF2_DIR)/project/Release/rspfgdal_plugin.dll
+plugin.file2: $(RSPF2_DIR)/project/Release/rspfreg_plugin.dll
+// plugin.file2: $(OSSIM_DATA)/ossim/plugins/libossimkakadu_plugin.so
+cache_size: 256
